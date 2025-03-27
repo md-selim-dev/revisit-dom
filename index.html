@@ -12,113 +12,142 @@
 <body>
     <header class="py-4 bg-slate-300 font-bold text-xl">
         <div class="flex justify-around items-center">
-            <h2>Budget: <span>2500</span> & </h2>
-            <h2> Cart: <span>0</span> </h2>
-            <h2> Left: <span>6</span></h2>
+            <h2>Budget: <span id="available-budget">2500</span> $ </h2>
+            <h2> Cart: <span id="cart-elem">0</span> </h2>
+            <h2> Left: <span id="left-elem">6</span></h2>
         </div>
     </header>
 
     <main class="my-4 container mx-auto flex justify-between w-auto">
         <!-- Card Section -->
-        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between items-center w-auto">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:p-4 justify-between items-center">
             <!-- cart-1 -->
-            <div class="card bg-base-100 shadow-xl p-4">
+            <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
                   <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>300</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Bat</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               
               <!-- cart-2 -->
-              <div class="card bg-base-100 shadow-xl p-4">
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
-                  <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal">Sakib Al Hasan</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>300</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>All-Rounder</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               
              <!-- cart-3 -->
-             <div class="card bg-base-100 shadow-xl p-4">
+             <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
-                  <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal">Musfiq</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>200</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Bat</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               <!-- cart-4 -->
-              <div class="card bg-base-100 shadow-xl p-4">
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
-                  <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal">Liton Das</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>300</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Bat</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               <!-- cart-5 -->
-              <div class="card bg-base-100 shadow-xl p-4">
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
-                  <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal">Santo</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>400</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Bat</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               <!-- cart-6 -->
-              <div class="card bg-base-100 shadow-xl p-4">
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
                 <div class="card-body items-center text-center">
-                  <h2 class="text-xl font-normal">Tamim Iqbal</h2>
-                  <h2 class="text-xl font-normal">Price: <span>300</span>$</h2>
-                  <h2 class="text-xl font-normal">Category: Bat</h2>
+                  <h2 class="text-xl font-normal">Mustafiz</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>400</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Ball</h2>
                   <div class="card-actions mt-3">
-                    <button class="btn btn-success btn-outline">Add To Cart</button>
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
                   </div>
                 </div>
               </div>
               
+               <!-- cart-7 -->
+               <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
+                <div class="card-body items-center text-center">
+                  <h2 class="text-xl font-normal">Taskin</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>400</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Ball</h2>
+                  <div class="card-actions mt-3">
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!-- cart-8 -->
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
+                <div class="card-body items-center text-center">
+                  <h2 class="text-xl font-normal">Soriful</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>300</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Bat</h2>
+                  <div class="card-actions mt-3">
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!-- cart-9 -->
+              <div class="card bg-base-100 lg:w-60 lg:h-72 shadow-xl p-2 lg:p-4">
+                <div class="card-body items-center text-center">
+                  <h2 class="text-xl font-normal">Touhid Ridoy</h2>
+                  <h2 class="text-xl font-normal"><b>Price: </b> <span>400</span>$</h2>
+                  <h2 class="text-xl font-normal"><b>Category: </b>Ball</h2>
+                  <div class="card-actions mt-3">
+                    <button class="add-to-cart-btn btn btn-success btn-outline">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
 
         </section>
 
         <!-- Cart Section -->
-         <section class="bg-base-100 shadow-xl p-10 text-center w-auto">
+         <section class="bg-base-100 shadow-xl p-4 lg:p-10 text-center">
             <h2 class="text-xl font-bold my-4">My Cart</h2>
             <hr class="border border-solid my-3">
             <div class="flex justify-between my-3 font-bold">
                 <h4>Name</h4>
                 <h4>Price</h4>
-                <h4>Category</h4>
+                <h4><b>Category: </b></h4>
             </div>
             <!-- cart-content -->
-            <div id="cart-section" class="">
-                <div class="flex justify-between">
-                    <p>apple</p>
-                    <p>apple</p>
-                    <p>apple</p>
-                </div>
+            <div id="cart-elements-container" class="">
+                <!-- players data container -->
             </div>
             <hr class="border border-solid my-3">
-            <h2 class="my-3 font-bold text-xl">Total Cost: <span>0</span>$</h2>
+            <h2 class="my-3 font-bold text-xl">Total Cost: <span id="total-cost">0</span>$</h2>
             <hr class="border border-solid my-3">
-            <div class="coupon-code my-3">
-                <input class="input bg-base-200" type="text" name="" id="" placeholder="Coupon Code">
-                <button class="btn btn-success btn-outline">Apply</button>
+            <div id="coupon-container" class="my-3">
+                <input class="input bg-base-200" type="text" name="" id="coupon-code" placeholder="Coupon Code">
+                <button id="apply-btn" class="btn btn-success btn-outline">Apply</button>
             </div>
             <hr class="border border-solid my-3">
-            <h2 class="font-bold text-xl">Grand Total: <span>0</span>$</h2>
+            <h2 class="font-bold text-xl">Grand Total: <span id="grand-total">0</span>$</h2>
          </section>
     </main>
 
